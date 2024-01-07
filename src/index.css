@@ -1,4 +1,2 @@
 @import "index.base.css";
 @import "@solana/wallet-adapter-react-ui/styles.css";
-@tailwind components;
-@tailwind utilities;
