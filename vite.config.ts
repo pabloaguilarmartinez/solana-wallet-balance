@@ -15,5 +15,10 @@ export default defineConfig({
     }
   },
   plugins: [react()],
-  base: './'
+  base: './',
+  build: {
+    rollupOptions: {
+      external: ["@particle-network/auth"]
+    }
+  }
 })
